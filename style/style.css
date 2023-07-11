@@ -2,29 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-.front {
-    font-family: 'Open Sans', sans-serif;
-}
+/* Common classes  */
 
-.header {
-    display: flex;
-    background: rgba(229, 84, 115, 0.10);
-    width: 1520px;
-    height: 800px;
-    justify-content: space-between;
-
+.container {
+    padding-inline: 150px;
 }
 
 p {
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-    padding-inline: 150px;
 }
 
 .btn-primary {
@@ -38,20 +26,26 @@ p {
     padding: 15px 30px;
     border-radius: 10px;
     border: none;
+}
 
+/* This is the CSS part of header section  */
+
+.header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    width: 1520px;
+    height: 800px;
+    justify-content: space-between;
 
 }
 
 .header-title {
     margin-top: 220px;
-
-
 }
 
 .header-image {
 
     margin-left: 100px;
-
 }
 
 .title {
@@ -61,20 +55,22 @@ p {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
 }
+
+/* This is the CSS part to main section  */
+
+/* Section-1  */
 
 .feature-title {
     text-align: center;
     margin-top: 100px;
-
 }
-
 
 .img-name {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-1 {
@@ -82,6 +78,8 @@ p {
     display: flex;
     margin-top: 60px;
     gap: 20px;
+    font-size: 20px;
+    font-style: normal;
 }
 
 #img-1 {
@@ -89,25 +87,17 @@ p {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 90px 40px 0;
-    
     width: 400px;
     height: 480px;
-
 }
 
-
-
 #img-2 {
-
-
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 90px 40px 40px;
     width: 400px;
     height: 480px;
-
-
 }
 
 #img-3 {
@@ -118,6 +108,8 @@ p {
     width: 400px;
     height: 480px;
 }
+
+ /* section-2  */
 
 .main {
     display: flex;
@@ -139,7 +131,6 @@ span {
 
 .main-title p {
     font-size: 14px;
-
 }
 
 .main-title-2 {
@@ -154,6 +145,8 @@ span {
 .main-image {
     margin-left: 150px;
 }
+
+/* Section-3  */
 
 .insta {
 
@@ -174,6 +167,8 @@ span {
     width: 350px;
 }
 
+/* section-4  */
+
 .email {
     background-image: url(../Rectangle\ 9.png);
     width: 1250px;
@@ -182,7 +177,6 @@ span {
     margin-left: 135px;
     text-align: center;
     padding: 140px;
-
 }
 
 .mail {
@@ -195,6 +189,8 @@ span {
     padding-left: 20px;
 }
 
+/* This is the CSS part of footer section  */
+
 .footer {
     width: 1520px;
     height: 390px;
@@ -205,7 +201,6 @@ span {
     padding: 9%;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .end {
