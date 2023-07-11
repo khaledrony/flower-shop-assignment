@@ -65,7 +65,7 @@ p {
 
 /* This is the CSS part to main section  */
 
-/* Section-1  */
+/* Section-1 (Bonus) */
 
 .feature-title {
     text-align: center;
@@ -115,7 +115,56 @@ p {
     height: 460px;
 }
 
-/* Section-2  */
+/* Section-2 (Bonus) */
+
+.season {
+    height: 150px;
+    width: 200px;
+}
+
+.season-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flow-title {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 20px;
+
+}
+
+.flower {
+    padding: 30px 30px 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: 100px 100px;
+}
+
+.flower-name {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(245, 34, 34);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flower-description {
+    text-align: justify;
+    margin-top: 10px;
+    color: rgb(58, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Section-3  */
 
 .bonus {
     display: flex;
@@ -145,7 +194,7 @@ p {
 
 }
 
-/* section-3  */
+/* section-4  */
 
 .main {
     display: flex;
@@ -188,7 +237,7 @@ span {
     flex-shrink: 0;
 }
 
-/* Section-4  */
+/* Section-5  */
 
 .insta {
 
@@ -209,7 +258,7 @@ span {
     width: 350px;
 }
 
-/* section-5  */
+/* section-6  */
 
 .email {
     background-image: url(../Rectangle\ 9.png);
