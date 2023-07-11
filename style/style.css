@@ -18,13 +18,13 @@ p {
 .btn-primary {
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     background: #E55473;
-    padding: 15px 30px;
-    border-radius: 10px;
+    padding: 20px 40px;
+    border-radius: 8px;
     border: none;
 }
 
@@ -34,13 +34,13 @@ p {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     width: 1520px;
-    height: 800px;
+    height: 700px;
     justify-content: space-between;
 
 }
 
 .header-title {
-    margin-top: 220px;
+    margin-top: 140px;
 }
 
 .header-image {
@@ -48,12 +48,18 @@ p {
     margin-left: 100px;
 }
 
+.header-flower-image {
+    height: 650px;
+    width: 520px;
+    margin-top: 50px;
+}
+
 .title {
     color: #272727;
     font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: bolder;
     line-height: normal;
 }
 
@@ -87,8 +93,8 @@ p {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 90px 40px 0;
-    width: 400px;
-    height: 480px;
+    width: 380px;
+    height: 460px;
 }
 
 #img-2 {
@@ -96,8 +102,8 @@ p {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 90px 40px 40px;
-    width: 400px;
-    height: 480px;
+    width: 380px;
+    height: 460px;
 }
 
 #img-3 {
@@ -105,17 +111,47 @@ p {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 90px 40px 40px;
-    width: 400px;
-    height: 480px;
+    width: 380px;
+    height: 460px;
 }
 
- /* section-2  */
+/* Section-2  */
+
+.bonus {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1215px;
+    height: 320px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 145px;
+    font-size: 10px;
+    color: rgba(39, 39, 39, 0.80);
+
+}
+
+.bonus-text {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-top: 90px;
+}
+
+.bonus-text h2 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* section-3  */
 
 .main {
     display: flex;
     text-align: center;
     justify-content: space-around;
-    padding: 100px 300px;
+    padding: 80px 250px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 100px;
@@ -146,7 +182,13 @@ span {
     margin-left: 150px;
 }
 
-/* Section-3  */
+.main-image-2 {
+    width: 250px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+/* Section-4  */
 
 .insta {
 
@@ -167,7 +209,7 @@ span {
     width: 350px;
 }
 
-/* section-4  */
+/* section-5  */
 
 .email {
     background-image: url(../Rectangle\ 9.png);
