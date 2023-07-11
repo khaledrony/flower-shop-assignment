@@ -113,6 +113,8 @@ p {
     padding: 90px 40px 40px;
     width: 380px;
     height: 460px;
+    padding-bottom: 0px;
+    
 }
 
 /* Section-2 (Bonus) */
